@@ -435,7 +435,7 @@ div {
 	margin-top: 40px;
 }
 .even {
-	transition-duration: 3s;
+	transition-duration: 1.4s;
 } 
 .block_tickets_icon {
 	margin-top: 18px;
@@ -696,101 +696,36 @@ div {
 	margin-top: 20px;
 }
 
-/* Контент вкладки "ПРОЕКТЫ" добавить javascript */
+/*Gallery*/
 
-.foto_fon {
-	height: 350px;
-	width: 900px;
-	margin-top: 60px;
-	float: left;
-	margin-left: 38px;
-
-}
-.foto_one_fon {
-	height: 350px;
-	width: 450px;
-	float: left;
-}
-.foto_house {
-	height: 187px;
-	width: 300px;
-	float: left;
-	margin-top: 8px;
-	background: url("../images/foto_house.png");
-	box-shadow: 0px 4px 15px 0px #000000;
-	margin-left: 70px;
-}
-.foto_two_fon {
-	height: 350px;
-	width: 450px;
-	float: right;
-}
-.foto_apartment {
-	height: 187px;
-	width: 300px;
+.photo_gallery {
 	display: block;
-	float: right;
-	margin-top: 8px;
-	background: url("../images/foto_house.png");
-	box-shadow: 0px 4px 15px 0px #000000;
-	margin-right: 81px;
+	text-align: center;
 }
-.left_angle {
-    height: 60px;
-    width: 18px;
-    background: url("../images/left_angle.png");
-    margin-top: 130px;
-    margin-left: 45px;
+.photo_gallery_1, .photo_gallery_2, .photo_gallery_3 {
+	top: 75px;
+	position: relative;
+	height: 175px;
 }
-.right_angle {
-    height: 60px;
-    width: 18px;
-    float: right;
-    background: url("../images/right_angle.png");
-    margin-right: 55px;
-    margin-top: -60px;
-}
-.left_angle_end {
-    height: 60px;
-    width: 18px;
-    background: url("../images/left_angle.png");
-    margin-top: 130px;
-    margin-left: 42px;
-}
-.right_angle_end {
-	height: 60px;
-	width: 18px;
-    float: right;
-    background: url("../images/right_angle.png");
-    margin-right: 55px;
-    margin-top: -117px;
-}
-.hat_foto_up {
-	height: 52px;
-	width: 120px;
-	float: left;
-	background: url("../images/hat_foto.png");
-	margin-left: 155px;
-	box-shadow: 0px 1px 4px 0px #000000;
-	font-family: 'FreeSet Cyrillic', arial;
-	font-size: 22px;
-	font-weight: bold;
-}
-.hat_foto_down {
+.photo_item {
 	height: 45px;
-	width: 300px;
-	float: left;
-	background: url("../images/hat_foto_down.png");
-	margin-top: 15px;
-	margin-left: 70px;
-	font-style: italic;
-	font-family: stroke;
-	display: block;
-	font-size: 20px;
-	box-shadow: 0px 1px 4px 0px #000000;
+	text-transform: uppercase;
+}
+.photo_item h2 {
+	margin-top: 35px;
+	text-decoration: underline;
+}
+.photo_item_groap {
+	margin-left: 129px;
+	height: 120px;
+}
+.photo_item_groap img {
+	height: 110px;
+	width: 155px;
+	border: 2px #222 solid; 
 }
 
-/* Контент вкладки "О НАС" добавить javascript */
+/* Контент вкладки "О НАС" */
 
 .services_fon_five {
 	height: 1413px;
@@ -1186,9 +1121,6 @@ div {
 .designed_by_transform p {
 	transition: 3s;
 }
-
-
-
 
 
 
